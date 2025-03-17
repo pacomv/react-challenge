@@ -13,6 +13,7 @@ export default defineConfig({
   },
   build: {
     cssCodeSplit: false,
+    outDir: "./assets",
     rollupOptions: {
       input: "./src/web-components/AccommodationFormElement.tsx",
       output: {
